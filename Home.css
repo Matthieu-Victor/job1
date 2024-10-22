@@ -1,0 +1,100 @@
+
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+  }
+  header {
+    grid-area: header;
+  }
+  .topNav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(59, 58, 58, 0.738);
+  }
+  .nav5{
+ padding-left: 60%;
+  }
+  main {
+    grid-area: main;
+    background-color: orange;
+  }
+  #titleMain {
+    display: flex;
+    align-items: center;
+  }
+  #main .titleMain h1:first-child {
+    margin-right: 10px;
+  }
+  #main .titleMain h1 {
+    margin-top: 14px;
+    font-size: 80px;
+    font-family:fantasy
+  }
+  #main .firstArticleTitle h1 {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+  #main .secondArticleTitle h1 {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+  #main .thirdArticleTitle h1 {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+  #bouquetsImg .boxCards1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    padding-left: 20px;
+  }
+  .boxCard1 {
+    border: 1px solid rgba(0, 0, 0, 0.221);
+    border-radius: 0px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+  }
+  .boxCard1 img {
+    height: 200px;
+    width: 145px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .BlocServices{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .Services{
+    display: flex;
+   flex: 1;
+   border: 1px solid rgba(0, 0, 0, 0.904)
+  }
+  .Services h3{
+    margin-right: 10px;
+  }
+  .Services p {
+    margin: 10px 0;
+  }
+h2{
+  font-size: 60px;
+}
+.bouquetsImg{
+  background-color: rgb(156, 95, 26);
+}
+  .separator {
+    height: 2px; /* Épaisseur de la barre */
+    background-color: #ccc; /* Couleur de la barre */
+}
+.seParator{
+  height: 35px; /* Épaisseur de la barre */
+  background-color: rgb(0, 0, 0)
+}

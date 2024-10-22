@@ -1,0 +1,38 @@
+
+body{
+background-image: url('fondFleuri.jpg');    
+margin: 0px;
+padding: 0px;
+font-family: arial, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 20px;
+}
+.double{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid #c44848;
+padding: 20px;
+margin: 10px 0px;
+background-color: lightblue;
+}
+.doubleImg{
+    text-align: center;
+}
+.doubleImg img{
+    display: block;
+    align-self: flex-start;
+height: 300px;
+width: 250px;
+margin-bottom: 10px;
+}
+p{
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+}
